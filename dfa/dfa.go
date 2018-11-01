@@ -30,7 +30,7 @@ func New(states []State, alphabets []Alphabet, transitions map[State]Transition,
 	return &DeterministicFiniteAutomata{
 		States:      states,
 		Alphabets:   alphabets,
-		Transitions: transitionsi,
+		Transitions: transitions,
 		InitState:   initState,
 		FinalStates: finalStates,
 	}
